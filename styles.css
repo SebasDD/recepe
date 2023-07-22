@@ -1,0 +1,103 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1 {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header h1 {
+
+    margin-left: 48px;
+}
+
+input {
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+    border-radius: 4px;
+ 
+    border: 1px solid var(--gray-3, #828282);
+}
+
+label {
+    width: 554px;
+    color: var(--gray-1, #333);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+}
+.header p {
+    width: 592px;
+    color: var(--gray-2, #4F4F4F);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 14px;
+}
+
+.img-container img {
+    width: 969px;
+    height: 470px;
+    flex-shrink: 0;
+    margin-top: 14px;
+    }
+
+    h3 {
+        color: var(--gray-1, #333);
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 48px;
+}
+
+.ing p {color: var(--gray-1, #333);
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;}
+
+
+.ing { 
+    margin-right: 0px;
+}
+.card {
+
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    position: absolute;
+    width:335px;
+    height: 189px;
+    margin-bottom: 0px;
+    display: inline-block;
+    left: 55%;
+    top: 72%;
+
+
+    }
+.card-info {
+    
+    display: block;
+    margin-left: 40px;
+  
+}
